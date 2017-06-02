@@ -1,8 +1,8 @@
+## Read temperature via DS18B20 and RPI and send values via HTTP in JSON-format to SQL Server
 ##
-##
-##
-##
-##
+## Temeparture values is read from DS18B20 by modprobe (https://en.wikipedia.org/wiki/Modprobe) in Linux. 
+## Values are stored in /sys/bus/w1/devices/<devicename>/w1_slave
+## Main loop wait's 10 sec and send's av POST in JSON to be9.asuscomm.com//proj/templog/index.asp:80
 
 import httplib
 import urllib
