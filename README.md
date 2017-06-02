@@ -1,5 +1,5 @@
 # temperature
-Meassure temperature through DS18B20 from RPI and send values via HTTP in JSON-format to SQL Server
+> Read temperature via DS18B20 and RPI and send values via HTTP in JSON-format to SQL Server
 
 Using DS18B20 (https://cdn-shop.adafruit.com/datasheets/DS18B20.pdf) as a digital thermometer.
 
